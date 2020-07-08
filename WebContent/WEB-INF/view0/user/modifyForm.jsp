@@ -1,9 +1,9 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8" pageEncoding="UTF-8"%>
 
-<%@ page import="com.javaex.vo.UserVo" %>
+<%@ page import="com.javaex.vo.PersonVo" %>
 
 <%
-	UserVo userVo = (UserVo)request.getAttribute("userVo");
+	PersonVo userVo = (PersonVo)request.getAttribute("userVo");
 	System.out.println(userVo.toString());
 %>
 
